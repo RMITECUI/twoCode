@@ -1,0 +1,607 @@
+
+@font-face {font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot'); /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.icon{
+	font-size: 15px;
+	float: right;
+	color: #999;
+	padding-left: 10px;
+}
+.header .iconfont{
+	float: left;
+	color: #fff;
+}
+body{
+	font-family: "微软雅黑";
+	background: #f3f3f3;
+}
+
+/*************交易金额开始************/
+.money-l,.money-r{
+	float: left;
+}
+.money{
+	width: 100%;
+	height: 80px;
+	padding-left: 25px;
+	background: #FFF;
+	border-bottom:1px solid #e5e5e5;
+}
+.money-l{
+	color: #333;
+	line-height: 20px;
+	padding-top: 5px;
+	text-align: center;
+
+}
+.money-list{
+	font: 16px/25px "微软雅黑";
+}
+.money-m{
+	font-size: 21px;
+	color: #e51111;
+}
+.money-r{
+	color: #2069c1;
+	font-size: 16px;
+	line-height: 20px;
+	float: right;
+	padding-top: 10px;
+	padding-right: 30px;
+	color: #2069c1;
+}
+.money .money-r span{
+	color: #666;
+}
+.money .r-list,.r-t{
+	font: 16px/20px "微软雅黑";
+	color: #2069c1;
+}
+..money .r-t{
+	width: 0;
+	height: 0;
+}
+/*********************交易金额结束*********************/
+
+/********************个人详情开始******************/
+.details{
+	background: #fff;
+	width: 100%;
+	line-height: 50px;
+	font-size: 16px;
+	float: left;
+	padding: 0 25px 0 25px;
+	
+}
+.details a{
+	float: right;	
+	color: #2069c1;
+}
+/********************个人详情结束******************/
+.quota{
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+	float: left;
+}
+.quota .quota-l{
+	background: #fff;
+	line-height: 50px;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 25px 0 25px;
+	font-size: 16px;
+}
+.quota .quota-m{
+	float: right;
+	color: #999;
+	font-size: 14px;
+}
+.quota-l .quota-icon{
+	float: left;
+	padding-left: 0;
+	padding-right: 8px;
+	font-size: 16px;
+	color: #2069c1;
+	text-align: center;
+}
+.quota a{
+	float: right;
+	font-size: 16px;
+}
+.quota .box{
+	font-size: 14px;
+	color: #999;
+	background: #fff;
+	width: 100%;
+	height: 50px;
+}
+.quota .box .box-l,.quota .box .box-r{
+	float: left;
+	line-height: 50px;
+	padding-left: 13px;
+}
+.quota .box .red{
+	color: #e51111;
+	padding-right: 25px;
+}
+.quota .box .box-r{
+	float: right;
+}
+.quota .box .box-a{
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	width: 100%;
+	color: #2069c1;
+	padding: 0 25px 0 25px;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 10px;
+}
+/*****************个人详情结束**************/
+
+/*************我的银行卡开始***************/
+.new .new-icon{
+	float: left;
+	padding-left: 0;
+	padding-right: 8px;
+	font-size: 16px;
+	color: #2069c1;
+	text-align: center;
+}
+.new .new span{
+
+}
+.new{
+	background: #fff;
+	width: 100%;
+	line-height: 50px;
+	font-size: 16px;
+	float: left;
+	padding: 0 25px 0 25px;
+	margin-top: 10px;
+	overflow: hidden;
+	
+}
+.new .icon-cue{
+	line-height: 39px;
+	border:none;
+}
+.new .icon:active{
+	background: none;
+}
+.cue-stlye{
+	font-size: 18px;
+	color: #8abef0;
+	margin-left: 5px;
+}
+.new .new-icon-n{
+	font-size: 20px;
+	padding-bottom: 10px;
+	color: #999;
+}
+.new .new-h{
+	padding: 0px;
+	margin: 0px;
+}
+.new .icon-m{
+	font-size: 18px;
+}
+.new .new-icon-hot{
+	float: left;
+}
+.new-no{
+	float: right;
+	margin-top: 10px;
+}
+.new a{
+	float: right;	
+	color: #2069c1;
+}
+.new-o .new-list{
+	color: #999;
+	text-indent: 25px;
+	float: left;
+	background: #fff;
+	width: 100%;
+	padding-top: 10px;
+	height: 45px;
+	border-top: 1px solid #e5e5e5;
+}
+.new .new-list span{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #d3d3d3;
+}
+/*************我的银行卡结束***************/
+
+/**************foot开始***********/
+.foot{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:30px 0 20px 0;
+	color: #999;
+}
+/**************foot结束***********/
+
+
+                  /************基础注册页面**********/
+
+.msg{
+	padding-left: 25px;
+	line-height: 30px;
+	color: #2069c1;
+	font-size: 14px;
+}
+.header .iconfont{
+	float: left;
+	color: #fff;
+}
+.name{
+	float: left;
+	/*margin-bottom: 20px;*/
+	width: 100%;
+	padding: 0 0px 0 15px;
+}
+.name .name-list{
+	font-family: "微软雅黑";
+	line-height: 1.1;
+	width: 95px;
+	font-size: 16px;
+}
+.name .name-r{
+	float: left;
+	height: 45px;
+}
+.mt15 .t-box {
+	text-indent: 13px;
+	line-height: 21px;
+	width: 100%;
+	margin-bottom: 0;
+	padding: 10px 15px;
+	-webkit-user-select: text;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 3px;
+	outline: 0;
+	background-color: #fff;
+	-webkit-appearance: none;
+}
+.msg-m1{
+	padding-left: 25px;
+	line-height: 30px;
+	color: #2069c1;
+	font-size: 14px;
+}
+.m2{
+	margin-top: 20px;
+	margin-bottom: 15px
+
+}
+.m2 .m2-but{
+	border-radius: 5px;
+	color: #fff;
+	line-height: 0;
+	font-size: 20px;
+	height: 45px;
+	margin: 0 auto;
+	width: 270px;
+	background: #2069c1;
+}
+.box-m3{
+	position: relative;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+}
+/***************手机验证码************/
+/***************手机验证码结束************/
+
+                   /***************个人信息页面开始************/
+.mui-table-view-cell {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.hm-table-view-props.mui-table-view .mui-table-view-cell .prop-txt {
+	float: right;
+}
+.m4{
+	color: #2069c1;
+}
+.product{
+	overflow: hidden;
+	padding-left: 25px;
+	height: 120px;
+	font-size:12px;
+	color: #2069c1;
+}
+.product li{
+	margin-right: 20px;
+	float:left;
+	width:102px;
+	border:1px solid #ccc;
+}
+.product .con{
+	width: 100px;
+	line-height: 20px;
+	padding-left: 18px;
+}
+.product .too{
+	float: right;
+}
+.product li .img{
+	display:block;
+	height:100px;
+	width: 100px;
+	background:url(../images/yun_19.jpg) no-repeat;
+	position:relative;
+}
+.product li:hover{
+	border:1px solid #2069c1;
+}
+
+}
+.product li span{
+	font-family: "微软雅黑";
+	padding-left: 10px;
+}
+
+           /**************************商户注册页面开始*********************/
+
+.but .but-l,.but .but-r{
+	float: left;
+}
+.but{
+	overflow: hidden;
+	height: 24vw;
+	/*background: #fff;*/
+	/*border-bottom: 1px solid #e5e5e5;*/
+	background: url(../images/bg1@2x.png) no-repeat;
+	background-size:cover ;
+	margin: 15px 15px 0 15px;
+  /*-webkit-box-shadow:0 0 10px #999;  
+  -moz-box-shadow:0 0 10px #999;  
+  box-shadow:0 0 6px #999;  */
+}
+.green{
+	background: url(../images/bg2@2x.png) no-repeat;
+	background-size:cover ;
+}
+.yellow{
+	background: url(../images/bg3@2x.png) no-repeat;
+	background-size:cover ;
+}
+.but .but-l{
+	/*line-height: 110px;*/
+}
+.but .but-l .icon-q{
+	line-height: 16vw;
+	font-size: 12vw;
+	color: #fff;
+	margin-left: 1vw;
+}
+.but .but-l .iconQ2{
+	line-height: 16vw;
+	font-size: 12vw;
+	color: #fff;
+	margin-left: 1vw;
+}
+.but .but-q{
+	margin-top: 3vw;
+	margin-left: 3vw;
+	border-radius:16vw;
+	width: 16vw;
+	height: 16vw;
+	/*border: 3px solid #fff;*/
+}
+.but .but-btn{
+	border-radius: 4px 0px 0px 4px;
+	width: 25px;
+	height: 40px;
+	background: #8abef0;
+	float: left;
+	color: #fff;
+	font-size: 17px;
+	padding-left: 0px;
+}
+.but .but-r{
+	font-size: 18px;
+	color: #999;
+	float: right;
+	padding-right: 15px;
+	text-align: center;
+	color: #085a89;
+}
+.but .but-r .green-g{
+	color: #086740;
+}
+.but .but-r .yellow-y{
+	color: #9a6c09;
+}
+.but .but-r .but-s{
+	font-size: 24px;
+	color: #fff;
+	margin-top: 5vw;
+	padding-bottom: 10px;
+}
+.regsiter{
+	border-radius: 0 0 6px 6px;
+	margin-bottom: 10px;
+	height: 80px;
+	padding-left: 10px;
+	background: #FFF;
+	margin: 0px 15px 15px 15px;
+	-webkit-box-shadow:0 0 3px #999;  
+    -moz-box-shadow:0 0 3px #999;  
+    box-shadow:0 0 3px #999; 
+}
+.regsiter-l{
+	float: left;
+	color: #333;
+	line-height: 20px;
+	padding-top: 5px;
+
+}
+.regsiter-r .green-l{
+	border: 1px solid #00a762;
+	color: #00a762;
+}
+.regsiter-r .yellow-l{
+	border: 1px solid #f1a80c;
+	color: #f1a80c;
+}
+.regsiter-list{
+	font: 16px/25px "微软雅黑";
+}
+.regsiter-no{
+	font-weight: bold;
+	color: #f87434;
+}
+.day{
+	font-size: 14px;
+}
+.regsiter-r{
+	padding-left: 7px;
+	text-align: center;
+	color: #2069c1;
+	font-size: 16px;
+	line-height: 20px;
+	float: right;
+	padding-top: 10px;
+	padding-right: 15px;
+}
+.r-list,.r-m{
+	font: 16px/15px "微软雅黑";
+}
+.r-list{
+	color: #333;
+}
+.r-m{
+	float: right;
+	border-radius: 6px;
+	font-size: 14px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #0193e6;
+	color: #0193e6;
+}
+
+/************************************************基础注册验证身份证页面************************************/
+
+.hm-table-view-props .label-list label{
+	float: right;
+	padding-left: 10px;
+	
+}
+.photo{
+	overflow: hidden;
+	background: #fff;
+	padding: 10px 0;
+	position: relative;
+}
+.photo .photo-l{
+	float: left;
+	text-align: center;
+	margin-left: 25px;
+	margin-top: 10px;
+	width:40%;
+	height: 100px;
+	line-height: 100px;
+	background: #0193e6;
+	position: relative;
+	background: url(../images/23.jpg) no-repeat top ;
+	text-indent: -2000px;
+	margin-bottom: 15px
+
+}
+.photo .photo-r{
+	text-align: center;
+	margin-left: 25px;
+	width: 40%;
+	height: 100px;
+	line-height: 94px;
+	background: rgba(0,0,0,.4);
+	position: absolute;
+	top:20px;
+	left: 0;
+	overflow: hidden;
+	
+}
+.photo .photo-l-r{
+	float: right;
+	text-align: center;
+	margin-left: 25px;
+	width: 40%;
+	height: 100px;
+	line-height: 100px;
+	background: #999;
+	position: absolute;
+	top:20px;
+	right: 24px;
+	font-size: 20px;
+	color: #ccc;
+	font-weight: bold;
+	overflow: hidden;
+}
+.photo .photo-icon{
+	color: #fff;
+	font-size: 42px;
+}
+.photo .photo-l span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.photo .photo-l .photo-icon{
+	padding-top: 9px;
+	color: #fff;
+	width: 100%;
+	height: 40px;
+	background:#8abef0 ;
+}
+.copyright{
+	margin: 15px 0 20px 25px;
+	font-size: 16px;
+}
+.icon-c{
+	color: #2069c1;
+}
+.mui-input-group .text-style{
+	height: 100px;
+}
+.mui-input-row .width44{
+	width: 40%;
+}
+.mui-input-row .my-btn-primary{
+	width: 28%;
+	background-color: #2069c1;
+	border: 1px solid #2069c1;
+	margin-right: 10px;
+}
+.list-style{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.list-style label{
+	width: 98px;
+}
+.mui-input-row .flo-style{
+	float: left;
+}
+.type-cue{
+	margin-left: 18px;
+	color: #999;
+}
+.photo-l-r a{
+	color: #ccc;
+}
+.code-img{
+	width: 100%;
+}

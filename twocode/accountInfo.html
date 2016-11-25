@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="mui-content"><!--主体内容-->
+		    <div class="msg-m1">账户信息</div><!--商户信息-->
+		    <ul class="mui-table-view hm-table-view-props">
+		    		<li class="mui-table-view-cell">
+			        <a href="#account-type"  class="mui-navigate-right">账户类型<span class="type-cue">请选择账户类型</span></a>
+			    </li>
+			    <li class="mui-input-row mui-table-view-cell list-style">
+					<label class="name-list">商户名称</label>
+					<input type="text" placeholder="请输入商户名称" class="name-r flo-style">
+				</li>
+				<li class="mui-input-row mui-table-view-cell list-style">
+					<label class="name-list">结算银行</label>
+					<input type="text" placeholder="请输入结算银行" class="name-r flo-style">
+				</li>
+				<li class="mui-input-row mui-table-view-cell list-style">
+					<label class="name-list">收款户名</label>
+					<input type="text" placeholder="请输入收款户名" class="name-r flo-style">
+				</li>
+		    </ul>
+		    <div class="msg-m1">上传照片</div><!--商户信息-->
+		    <div class="photo">
+			    	<div class="photo-l">
+			    		<span>点击上传</span>
+			    	</div>
+			    	<div class="photo-r">
+			    		<a href="#img-up" class="iconfont new-icon photo-icon">&#xe67a;</a>
+			    	</div>
+			    	<div class="photo-l-r">
+			    		<a href="#img-up">点击上传</a>
+			    	</div>
+		    </div>
+            <div class="copyright">
+	            	<i class="iconfont new-icon icon-c">&#xe62a;</i>
+	            	我已经认真阅读并同意
+	            	<a href="#">《商户服务协议》</a>
+            </div>
+            <div class="hm-btn-box m2"><!--提交按钮-->
+	    			<button class="mui-btn mui-btn-block hm-btn-block hm-btn-primary m2-but" type="button" onclick="location.href='zhangGui.html'">提交</button>
+	    		</div>
+	    </div>
+	    <div id="account-type" class="mui-popover mui-popover-bottom mui-popover-action ">
+		    <!-- 可选择菜单 -->
+		    <ul class="mui-table-view">
+		      <li class="mui-table-view-cell">
+		        <a href="#">个人卡账户</a>
+		      </li>
+		      <li class="mui-table-view-cell">
+		        <a href="#">公司卡账户</a>
+		      </li>
+		    </ul>
+		    <!-- 取消菜单 -->
+		    <ul class="mui-table-view">
+		      <li class="mui-table-view-cell">
+		        <a href="#account-type"><b>取消</b></a>
+		      </li>
+		    </ul>
+		</div>
+		<div id="img-up" class="mui-popover mui-popover-bottom mui-popover-action ">
+		    <!-- 可选择菜单 -->
+		    <ul class="mui-table-view">
+		      <li class="mui-table-view-cell">
+		        <a href="#">拍照</a>
+		      </li>
+		      <li class="mui-table-view-cell">
+		        <a href="#">从手机相册选择</a>
+		      </li>
+		    </ul>
+		    <!-- 取消菜单 -->
+		    <ul class="mui-table-view">
+		      <li class="mui-table-view-cell">
+		        <a href="#img-up"><b>取消</b></a>
+		      </li>
+		    </ul>
+		</div>
+			
+		<!--主体内容结束-->
+		
+		<script src="js/mui.min.js"></script>
+		<script src="js/iconfont.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>
