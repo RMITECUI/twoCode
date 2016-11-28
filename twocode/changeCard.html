@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="mui-content">
+		    <div class="mui-input-group hm-mui-input-group mt15 name" style="margin-bottom: 20px;">
+				<div class="mui-input-row">
+					 <label class="name-list">结算账号</label>
+					<input type="text" placeholder="请输入结算账号" class="name-r">
+				</div>
+				<div class="mui-input-row">
+					<label class="name-list">结算银行</label>
+					<input type="text" placeholder="请输入开户银行" class="name-r">
+				</div>
+				<div class="mui-input-row">
+					<label class="name-list">结算户名</label>
+					<input type="text" value="徐颖" class="name-r" disabled="disabled">
+				</div>
+				<div class="mui-input-row">
+					<label class="name-list">手机号码</label>
+					<input type="text" value="185****1203" class="name-r" disabled="disabled">
+				</div>
+				<div class="mui-input-row">
+					<label class="name-list">验证码</label>
+					<input type="text" placeholder="输入验证码" class="name-r width34">
+					<span class="gexian">|</span>
+					<a class="send-btn" href="">发送验证码</a>
+				</div>
+			</div>
+			<div class="hm-btn-box m2"><!--提交按钮-->
+		    		<button class="mui-btn mui-btn-block hm-btn-block hm-btn-primary m2-but" type="button" onclick="location.href='changeSuccess.html'">提交</button>
+		    	</div>
+		</div>
+		
+		<script src="js/mui.min.js"></script>
+		<script src="js/iconfont.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>
