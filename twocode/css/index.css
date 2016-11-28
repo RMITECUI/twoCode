@@ -10,15 +10,15 @@
 	font-size: 15px;
 	float: right;
 	color: #999;
-	padding-left: 10px;
+	padding-left: 2px;
 }
 .header .iconfont{
 	float: left;
 	color: #fff;
 }
 body{
-	font-family: "微软雅黑";
-	background: #f3f3f3;
+	font-family: "微软雅黑",'Helvetica Neue', Helvetica, sans-serif;
+	/*background: #f3f3f3;*/
 }
 
 /*************交易金额开始************/
@@ -88,9 +88,12 @@ body{
 	height: 100px;
 	margin-top: 10px;
 	float: left;
+	background-color: #fff;
 }
 .quota .quota-l{
+	display: block;
 	background: #fff;
+	height: 50px;
 	line-height: 50px;
 	border-bottom: 1px solid #e5e5e5;
 	padding: 0 25px 0 25px;
@@ -109,10 +112,10 @@ body{
 	color: #2069c1;
 	text-align: center;
 }
-.quota a{
+/*.quota a{
 	float: right;
 	font-size: 16px;
-}
+}*/
 .quota .box{
 	font-size: 14px;
 	color: #999;
@@ -128,6 +131,7 @@ body{
 .quota .box .red{
 	color: #e51111;
 	padding-right: 25px;
+	font-size: 16px;
 }
 .quota .box .box-r{
 	float: right;
@@ -157,15 +161,20 @@ body{
 
 }
 .new{
+	display: block;
 	background: #fff;
 	width: 100%;
 	line-height: 50px;
 	font-size: 16px;
 	float: left;
-	padding: 0 25px 0 25px;
+	padding: 0 14px 0 14px;
 	margin-top: 10px;
 	overflow: hidden;
-	
+	color: #000;
+}
+.list-next:active{
+	color: #000;
+	background-color: #fafafa;
 }
 .new .icon-cue{
 	line-height: 39px;
@@ -198,19 +207,16 @@ body{
 	float: right;
 	margin-top: 10px;
 }
-.new a{
-	float: right;	
-	color: #2069c1;
+.new-o{
+	background-color: #fff;
 }
-.new-o .new-list{
+.quota .new-list{
 	color: #999;
 	text-indent: 25px;
 	float: left;
 	background: #fff;
 	width: 100%;
-	padding-top: 10px;
-	height: 45px;
-	border-top: 1px solid #e5e5e5;
+	line-height: 50px;
 }
 .new .new-list span{
 	font-size: 14px;
@@ -226,6 +232,7 @@ body{
 	text-align: center;
 	padding:30px 0 20px 0;
 	color: #999;
+	font-size: 14px;
 }
 /**************foot结束***********/
 
@@ -243,10 +250,10 @@ body{
 	color: #fff;
 }
 .name{
-	float: left;
+	/*float: left;*/
 	/*margin-bottom: 20px;*/
 	width: 100%;
-	padding: 0 0px 0 15px;
+	/*padding: 0 0px 0 15px;*/
 }
 .name .name-list{
 	font-family: "微软雅黑";
@@ -256,7 +263,8 @@ body{
 }
 .name .name-r{
 	float: left;
-	height: 45px;
+	/*height: 45px;*/
+	font-size: 16px;
 }
 .mt15 .t-box {
 	text-indent: 13px;
@@ -291,6 +299,7 @@ body{
 	margin: 0 auto;
 	width: 270px;
 	background: #2069c1;
+	border: none;
 }
 .box-m3{
 	position: relative;
@@ -298,16 +307,18 @@ body{
 	border: 0;
 	background-color: #fff;
 }
-/***************手机验证码************/
-/***************手机验证码结束************/
-
-                   /***************个人信息页面开始************/
+/***************个人信息页面开始************/
 .mui-table-view-cell {
 	padding-left: 25px;
 	padding-right: 25px;
 }
+.table-padding li{
+	padding-left: 14px;
+	padding-right: 14px;
+}
 .hm-table-view-props.mui-table-view .mui-table-view-cell .prop-txt {
 	float: right;
+	font-size: 14px;
 }
 .m4{
 	color: #2069c1;
@@ -507,30 +518,52 @@ body{
 .photo .photo-l{
 	float: left;
 	text-align: center;
-	margin-left: 25px;
+	margin-left: 18px;
 	margin-top: 10px;
 	width:40%;
-	height: 100px;
-	line-height: 100px;
-	background: #0193e6;
+	height: 26vw;
+	background: url(../images/shen1.png) no-repeat;
+	background-size: cover;
+	margin-bottom: 10px;
 	position: relative;
-	background: url(../images/23.jpg) no-repeat top ;
-	text-indent: -2000px;
-	margin-bottom: 15px
-
+}
+.shen-img{
+	width: 100%;
+	height: 26vw;
 }
 .photo .photo-r{
+	float: right;
 	text-align: center;
-	margin-left: 25px;
+	margin-right: 18px;
+	margin-top: 10px;
 	width: 40%;
-	height: 100px;
-	line-height: 94px;
-	background: rgba(0,0,0,.4);
-	position: absolute;
-	top:20px;
-	left: 0;
-	overflow: hidden;
-	
+	height: 26vw;
+	background: url(../images/shen2.png) no-repeat;
+	background-size: cover;
+	margin-bottom: 10px
+}
+.photo .photo-l2{
+	float: left;
+	text-align: center;
+	margin-left: 18px;
+	margin-top: 10px;
+	width:40%;
+	height: 26vw;
+	background: url(../images/mentou.png) no-repeat;
+	background-size: cover;
+	margin-bottom: 10px;
+	position: relative;
+}
+.photo .photo-r2{
+	float: right;
+	text-align: center;
+	margin-right: 18px;
+	margin-top: 10px;
+	width: 40%;
+	height: 26vw;
+	background: url(../images/yingye.png) no-repeat;
+	background-size: cover;
+	margin-bottom: 10px
 }
 .photo .photo-l-r{
 	float: right;
@@ -547,6 +580,18 @@ body{
 	color: #ccc;
 	font-weight: bold;
 	overflow: hidden;
+}
+.fuceng{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.fuceng img{
+	width: 40px;
+	margin-top: 7vw;
 }
 .photo .photo-icon{
 	color: #fff;
@@ -566,7 +611,7 @@ body{
 }
 .copyright{
 	margin: 15px 0 20px 25px;
-	font-size: 16px;
+	font-size: 14px;
 }
 .icon-c{
 	color: #2069c1;
@@ -586,18 +631,21 @@ body{
 .list-style{
 	padding-top: 1px;
 	padding-bottom: 1px;
-	padding-left: 20px;
+	padding-left: 0;
 	padding-right: 20px;
 }
 .list-style label{
 	width: 98px;
+	font-size: 16px;
 }
 .mui-input-row .flo-style{
 	float: left;
+	font-size: 16px;
 }
 .type-cue{
 	margin-left: 18px;
 	color: #999;
+	font-size: 16px;
 }
 .photo-l-r a{
 	color: #ccc;
@@ -605,3 +653,283 @@ body{
 .code-img{
 	width: 100%;
 }
+/*交易金额start*/
+.i-banner{
+	background-color: #fff;
+}
+.i-bar{
+	padding: 12px 14px;
+	display: block;
+	color: #2069c1;
+	border-bottom: 1px solid #e5e5e5;
+}
+.icon-touxiang{
+	font-size: 16px;
+	margin-right: 4px;
+	color: #2069c1;
+}
+.tel{
+	color: #999;
+	font-size: 14px;
+}
+.amount-title{
+	color: #333;
+	font-weight: normal;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: -20px;
+	padding-top: 10px;
+}
+.amount{
+	color: #e51111;
+	font-size: 40px;
+	padding: 30px 0 10px 0;
+	line-height: 1;
+	text-align: center;
+}
+.amount2{
+	font-size: 18px;
+	line-height: 26px;
+	color: #2069c1;
+}
+.sywrap{
+	padding: 8px 38px;
+}
+.cell{
+	width: 50%;
+}
+.prop-name{
+	color: #909090;
+	font-size: 16px;
+}
+.right-text{
+	float: right;
+	font-size: 14px;
+	color: #999;
+}
+.right-text:active{
+	color: #999;
+}
+.up-sum{
+	font-size: 16px;
+	color: #000;
+}
+/*交易金额end*/
+.gexian{
+	line-height: 40px;
+	color: #c8c7cc;
+}
+.send-btn{
+	display: block;
+	float: right;
+	margin-right: 20px;
+	line-height: 40px;
+	color: #2069c1;
+	font-size: 14px;
+}
+.mui-input-row .width34{
+	width: 34%;
+}
+.mui-table-view-cell .account-style{
+	font-size: 16px;
+	margin-left: -35px !important;
+	margin-right: -35px !important;
+}
+.prompt-info{
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.paddingb0{
+	padding-bottom: 0;
+}
+
+/*变更银行卡开始*/
+
+.biangeng{
+	padding-bottom: 15px;
+	overflow: hidden;
+	text-align: center;
+	
+}
+.biangeng span{
+	font-family: "微软雅黑";
+	font-size: 22px;
+}
+.biangeng .biangeng-p{
+	padding-top: 5px;
+}
+.biangeng .biangang-icon{
+	display: block;
+	color: #0193e6;
+	font-size: 30vw;
+	padding-top: 55px;
+	padding-bottom: 13vw;
+}
+/*变更银行卡结束*/
+
+/*店小二开始*/
+.generate{
+	/*margin-top: 15px;*/
+	background: #fff;
+	/*padding-bottom: 15px;*/
+}
+.generate .generate-p{
+	font-size: 17px;
+	color: #0193e6;
+	padding: 10px 15px 10px 15px;
+	border-bottom:1px solid #c8c7cc;
+}
+.generate .generate .generate-l,.generate .generate-r{
+	float: left;
+}
+.generate .generate-r{
+	float: right;
+}
+.generate .generate-l{
+	float: left;
+}
+.generate .generate-l .people{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background: #0193e6;
+	margin: 3px 0px 0 15px;
+	margin-top: 5vw;	
+}
+.generate .generate-l .people-top{
+	margin-top: 2vw;
+}
+.generate-r{
+	width: 60%;	
+}
+.generate-r .generate-content{
+	padding-right: 15px;
+	color: #333;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c8c7cc;
+}
+.generate-r .generate-content span{
+	color: #999;
+}
+.generate-hr{
+	border:1px solid #eee;
+}
+.m2 .generate-but{
+	background: #4fb716;
+}
+.generate-r .borderb0{
+	border-bottom: none;
+}
+.xiao{
+	text-align: center;
+    display: block;
+    margin-left: 20px;
+    margin-top: -14px;
+}
+/*店小二结束*/
+
+/*生成口令开始*/
+.generate-icon{
+	display: block;
+	color: #4fb716;
+	font-size: 30vw;
+	padding-top: 70px;
+	padding-bottom: 13vw;
+}
+.biangeng .generate-span{
+	font-size: 22px;
+	color: #666;
+}
+.biangeng-p2{
+	padding-top: 10px;
+	font-size: 38px;
+	font-weight: bold;
+	color: #333;
+}
+/*生成口令结束*/
+
+/*解雇店员开始*/
+.fire-icon{
+	color: #0193e6;
+}
+.fire{
+	margin-top: 30px;
+}
+/*解雇店员结束*/
+/*没有交易记录开始*/
+.Date{
+	overflow: hidden;
+	height: 45px;
+	background: #e8e8e8;
+}
+.Date .Date-l,.Date .Date-r{
+	line-height: 45px;
+	float: left;
+}
+.Date .Date-l{
+	padding-left: 15px;
+}
+.Date .Date-r{
+	float: right;
+	padding-right: 15px;
+}
+.Date-icon{
+	font-size: 12px;
+	padding-left: 10px;
+	color: #333;
+}
+/*没有交易记录结束*/
+
+/*交易记录开始*/
+.jiaoyi{
+	overflow: hidden;
+	background: #fff;
+	padding: 10px 0 10px 0px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.jiaoyi .jiaoyi-l,.jiaoyi .jiaoyi-r{
+	float: left;
+}
+.jiaoyi .jiaoyi-l{
+	padding-left: 15px;
+	color: #999;
+	font-size: 14px;
+}
+.jiaoyi .jiaoyi-r{
+	float: right;
+	width: 40%;
+	padding-top: 5vw;
+}
+.jiaoyi .jiaoyi-r span{
+	float: right;
+	padding-right: 15px;
+}
+.jiaoyi-icon{
+	font-size: 46px;
+	color: #4fb716;
+}
+.jiaoyi-icon-green{
+	color: #0193e6;
+}
+/*交易记录结束*/
+.detailInfo .mui-table-view-cell:active{
+	background-color: #fff;
+}
+.hm-btn-primary:active,
+.hm-btn-primary:focus{
+	background-color: #12509c;
+}
+/*商户详情修改开始*/
+.mui-input-row .name-l-l{
+	color: #000;
+	float: right;
+	text-align: right;
+}
+.mui-input-row .color-b{
+	color: #2069c1;
+}
+/*商户详情修改结束*/

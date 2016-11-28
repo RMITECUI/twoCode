@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="mui-content"><!--主体内容-->
+			<div class="msg-m1">上传照片</div><!--商户信息-->
+		    <div class="photo">
+			    	<div style="overflow: hidden;">
+				    	<a class="photo-l2" href="#img-up">
+				    		<img class="shen-img" src="images/shen-img.png" />
+				    		<div class="fuceng"><img src="images/xiangji.png"></div>
+				    	</a>
+				    	<a class="photo-r2" href="#img-up">
+				    		<!--<img class="shen-img" src="" />-->
+				    	</a>
+			    	</div>
+			    	<div class="prompt-info paddingb0">上传门头照、营业执照可提升单笔限额。</div>
+		    </div>
+		    <div class="hm-btn-box m2"><!--提交按钮-->
+	    			<button class="mui-btn mui-btn-block hm-btn-block hm-btn-primary m2-but" type="button" onclick="location.href='liftingSuccess.html'">提交</button>
+	    		</div>
+		</div>
+		<div id="img-up" class="mui-popover mui-popover-bottom mui-popover-action ">
+		    <!-- 可选择菜单 -->
+		    <ul class="mui-table-view">
+		      <li class="mui-table-view-cell">
+		        <a href="#">拍照</a>
+		      </li>
+		      <li class="mui-table-view-cell">
+		        <a href="#">从手机相册选择</a>
+		      </li>
+		    </ul>
+		    <!-- 取消菜单 -->
+		    <ul class="mui-table-view">
+		      <li class="mui-table-view-cell">
+		        <a href="#img-up"><b>取消</b></a>
+		      </li>
+		    </ul>
+		</div>
+		
+		<script src="js/mui.min.js"></script>
+		<script src="js/iconfont.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+</html>
